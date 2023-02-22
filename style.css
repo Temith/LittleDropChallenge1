@@ -1,0 +1,188 @@
+/* CSS RESET */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans&family=Poppins:wght@400;500;600;700;800&family=Raleway:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans&family=Poppins:wght@400;500;600;700;800&family=Raleway:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
+#container {
+  width: 100%;
+  height: 100%;
+  /* max-width: 1440px; */
+  min-width: 375px;
+}
+#header {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right img {
+  margin-right: auto;
+  display: flex;
+}
+nav > ul {
+  display: flex;
+}
+nav > ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 20px;
+}
+.first h1 {
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  margin: 20px 0;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.first p {
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+input {
+  padding: 12px 0;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.first button {
+  padding: 12px;
+  background-color: hsl(224, 93%, 58%);
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.secondcontainer {
+  margin-top: -5px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(240, 75%, 98%);
+  padding: 20px;
+}
+.second h2 {
+  font-size: 18px;
+  margin: 30px 20px 10px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.second p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 0;
+}
+.second .arrow {
+  text-align: center;
+}
+.arrow img {
+  margin-bottom: -3px;
+}
+a {
+  color: hsl(170, 45%, 43%);
+}
+.divider {
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin: 30px 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+.profile img {
+  margin: 10px 0;
+}
+.profilepicture {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.profilepicture p {
+  font-size: 12px;
+}
+.profilepicture h3 {
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.profilepicture img {
+  border-radius: 15px;
+}
+.third {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(238, 22%, 44%);
+  padding: 30px 20px 80px;
+}
+.third p,
+h4 {
+  margin: 10px;
+  text-align: center;
+  color: white;
+}
+.third p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.third h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.third button {
+  padding: 12px;
+  background-color: hsl(224, 93%, 58%);
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+.last {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 0px 50px 40px;
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+}
+.last .logo img {
+  color: hsl(0, 0%, 75%);
+}
+
+ul > li {
+  padding: 10px;
+}
+.last .contact p {
+  padding: 10px 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.attribution {
+  margin-top: 10px;
+}
